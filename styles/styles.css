@@ -59,7 +59,7 @@ main > * {
     height: 150px;
 }
 
-nav h2{
+.logo{
     font-size: 34px;
     color: #4E47FF;
 }
@@ -155,7 +155,6 @@ nav h2{
     padding: 0;
 }
 
-
 .review{
     /* border: red solid; */
     width: 100%;
@@ -191,4 +190,104 @@ nav h2{
     width: 100%;
     height: 100%;
     display: flex;
+}
+
+/* contact area */
+.contact{
+    /* border: blue solid; */
+    display: flex;
+    justify-content: space-around;
+    max-width: 1140px;
+    max-height: 632px;
+    margin-left: 350px;
+    padding-bottom: 71px;
+
+}
+
+.footer-column{
+    width: 50%;
+}
+
+.contact-title{
+    max-width: 528px;
+    max-height: 232px;
+    font-size: 97px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.column-2{
+    max-width: 497px;
+    max-height: 490px;
+}
+
+.column-2-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.lbls{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* 
+main input [type="email"]{
+    margin-bottom: 19px;
+    border: red solid;
+} */
+
+#mail, #name, #Message-1{
+    /* border: red solid; */
+    margin-bottom: 19px;
+}
+
+.fixit{
+    width: 100%;
+    height: 100%;
+    height: 70px;
+    width: 497px;
+    text-align: center;
+}
+
+/* footer */
+.final{
+    margin: 0;
+    padding: 0;
+
+    margin: 104px 650px 103px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    max-width: 531px;
+    max-height: 177px;
+}
+
+.final-title{
+    margin: 0;
+    padding: 0;
+
+    font-size: 100px;
+    font-weight: 900;
+}
+
+.final-desc{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #8987A1;
+}
+
+.final-list{
+    display: flex;
+    gap: 48px;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+
+footer section ul a{
+    text-decoration: none;
+    color: #8987A1;
 }
