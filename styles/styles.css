@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+  padding: 0;
+}
 
 /* Inter font - setting */
 .inter-first {
@@ -149,4 +153,42 @@ nav h2{
     font-size: 20px;
     margin: 0;
     padding: 0;
+}
+
+
+.review{
+    /* border: red solid; */
+    width: 100%;
+    max-width: 1140px;
+    margin-left: 350px;
+}
+
+.review-title{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    text-align: center;
+}
+
+.review-holder{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card{
+    /* border: red solid; */
+    width: 100%;
+    height: 100%;
+    max-width: 367px;
+    max-height: 243px;
+    background-color: antiquewhite;
+}
+.part-2{
+    /* border: blueviolet solid; */
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
 }
