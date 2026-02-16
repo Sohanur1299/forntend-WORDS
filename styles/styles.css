@@ -1,0 +1,63 @@
+
+/* Inter font - setting */
+.inter-first {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+.raleway-second {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+/* shared styles */
+.btn-primary{
+    background-color: #4E47FF;
+    text-align: center;
+    border-radius: 10px;
+    padding: 12px 15px;
+    border-style: none;
+}
+
+.btn-text{
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+/* Nav bar styles */
+.nav-syle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    height: 150px;
+}
+
+nav h2{
+    font-size: 34px;
+    color: #4E47FF;
+}
+
+
+.banner-area{
+    border: red solid;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    /* max-width: 905px;
+    max-height: 237px; */
+    text-align: center;
+    margin: 309px 267px 152px;
+}
+
+.banner-title{
+    font-size: 65px;
+    padding: 0px 20px 0px;
+}
