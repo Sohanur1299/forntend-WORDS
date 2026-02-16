@@ -46,7 +46,7 @@
         <section class="prod-part">
             <div class="prod-user">
                 <h3 class="prod-title raleway-second">Joined Thousands of Productive Users</h3>
-                <section  class="prod-info-list">
+                <section class="prod-info-list">
                     <div class="product-item">
                         <h4 class="prod-item-data">50K</h4>
                         <p class="prod-item-explain">Active Users</p>
@@ -63,14 +63,71 @@
                     </div>
                 </section>
             </div>
-
         </section>
 
+        <section class="review">
+            <h2 class="review-title raleway-second">What our users say</h2>
+            <div class="review-holder">
+                <div class="card">
+                    <!-- rating  -->
+                    <div class="part-1">
+                        <h4 class="card-title">Loved by Designers</h4>
+                        <p class="card-desc">This template instantly leveled up our presence.” – Studio Vertex</p>
+                    </div>
+                    <div class="part-2">
+                        <img src="/Assets/avatar.png" alt="">
+                        <div class="part-2-2">
+                            <p class="reviewer-name">Reviewer name</p>
+                            <p class="reviewer-date">Date</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <!-- rating  -->
+                    <div class="part-1">
+                        <h4 class="card-title">Loved by Designers</h4>
+                        <p class="card-desc">This template instantly leveled up our presence.” – Studio Vertex</p>
+                    </div>
+                    <div class="part-2">
+                        <img src="/Assets/avatar.png" alt="">
+                        <div class="part-2-2">
+                            <p class="reviewer-name">Reviewer name</p>
+                            <p class="reviewer-date">Date</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <!-- rating  -->
+                    <div class="part-1">
+                        <h4 class="card-title">Loved by Designers</h4>
+                        <p class="card-desc">This template instantly leveled up our presence.” – Studio Vertex</p>
+                    </div>
+                    <div class="part-2">
+                        <img src="/Assets/avatar.png" alt="">
+                        <div class="part-2-2">
+                            <p class="reviewer-name">Reviewer name</p>
+                            <p class="reviewer-date">Date</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        
     </main>
 
     <footer>
-
     </footer>
+
+    <script>
+        if (localStorage.getItem("scrollPosition")) {
+            window.scrollTo(0, localStorage.getItem("scrollPosition"));
+        }
+
+        window.addEventListener("scroll", () => {
+            localStorage.setItem("scrollPosition", window.scrollY);
+        });
+    </script>
 
 </body>
 
